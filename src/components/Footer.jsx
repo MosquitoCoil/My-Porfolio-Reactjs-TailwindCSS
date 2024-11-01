@@ -135,7 +135,7 @@ function Footer() {
                       aria-hidden="true"
                     >
                       <path
-                        fillRule="evenodd"
+                        fill="#f0f6fc"
                         d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
                         clipRule="evenodd"
                       />
@@ -154,6 +154,7 @@ function Footer() {
                     <svg
                       className="size-6"
                       viewBox="0 0 48 48"
+                      fill="currentColor"
                       width="48px"
                       height="48px"
                     >
@@ -177,6 +178,29 @@ function Footer() {
                     </svg>
                   </a>
                 </li>
+
+                <li>
+                  <a
+                    href="https://www.youtube.com/@rocojaymars.7879"
+                    rel="noreferrer"
+                    target="_blank"
+                    className="dark:text-gray-400 transition dark:hover:text-white"
+                  >
+                    <span className="sr-only">YouTube</span>
+                    <svg
+                      className="size-10"
+                      fill="currentColor"
+                      viewBox="0 0 48 48"
+                      width="48px"
+                      height="48px"
+                    >
+                      <path
+                        fill="#ff0033"
+                        d="M15,4c-4.186,0 -9.61914,1.04883 -9.61914,1.04883l-0.01367,0.01563c-1.90652,0.30491 -3.36719,1.94317 -3.36719,3.93555v6v0.00195v5.99805v0.00195c0.00384,1.96564 1.4353,3.63719 3.37695,3.94336l0.00391,0.00586c0,0 5.43314,1.05078 9.61914,1.05078c4.186,0 9.61914,-1.05078 9.61914,-1.05078l0.00195,-0.00195c1.94389,-0.30554 3.37683,-1.97951 3.37891,-3.94727v-0.00195v-5.99805v-0.00195v-6c-0.00288,-1.96638 -1.43457,-3.63903 -3.37695,-3.94531l-0.00391,-0.00586c0,0 -5.43314,-1.04883 -9.61914,-1.04883zM12,10.39844l8,4.60156l-8,4.60156z"
+                      ></path>
+                    </svg>
+                  </a>
+                </li>
               </ul>
             </div>
 
@@ -188,7 +212,7 @@ function Footer() {
                   <li>
                     <a
                       className="dark:text-gray-400 transition dark:hover:text-white"
-                      href="#"
+                      href="https://www.canva.com/design/DAFr8zW01NA/LMNEnDiH-djvQ32Ebaqy5w/edit?utm_content=DAFr8zW01NA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
                     >
                       Curriculum Vitae
                     </a>
@@ -197,7 +221,7 @@ function Footer() {
                   <li>
                     <a
                       className="dark:text-gray-400 transition dark:hover:text-white"
-                      href="#"
+                      href="https://github.com/MosquitoCoil"
                     >
                       Projects
                     </a>
@@ -223,8 +247,7 @@ function Footer() {
                       className="dark:text-gray-400 transition dark:hover:text-white"
                       href="#"
                     >
-                      {" "}
-                      Web Design{" "}
+                      Web Design
                     </a>
                   </li>
 

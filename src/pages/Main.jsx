@@ -154,7 +154,7 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-cyan
               href="#"
             >
               <a
-                href="https://www.youtube.com/watch?v=yaTyTw99zLs"
+                href="https://www.youtube.com/watch?v=Wgo8yktOc1w"
                 className="group relative block"
               >
                 <div className="absolute inset-0 grid md:grid-cols-3 gap-4">
@@ -243,7 +243,10 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-cyan
               className="hover:bg-gray-500/5 block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-cyan-400/10 hover:shadow-cyan-400/10"
               href="#"
             >
-              <a href="http://localhost:5173/" className="group relative block">
+              <a
+                href="https://www.youtube.com/watch?v=3NTtNt5WtO4"
+                className="group relative block"
+              >
                 <img
                   alt=""
                   src="/src/assets/Screenshot/My portfolio.png"
@@ -273,12 +276,12 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-cyan
               </a>
             </div>
 
-            <div
+            {/*<div
               className="hover:bg-gray-500/5 block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-cyan-400/10 hover:shadow-cyan-400/10"
               href="#"
             >
               <a
-                href="https://drive.google.com/drive/folders/1-iyej4MCY6txsvmFXhF1rsXzO3p5NN5-?usp=sharing"
+                href="#"
                 className="group relative block"
               >
                 <img
@@ -286,7 +289,7 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-cyan
                   src="/src/assets/Screenshot/CMS.png"
                   className="absolute inset-0 h-full w-full object-contain transition-opacity group-hover:opacity-50"
                 />
-                {/* <img className="size-10" src='/src/assets/play.png'/>    */}
+                 <img className="size-10" src='/src/assets/play.png'/>    
                 <div className="relative p-4 sm:p-6 lg:p-8 object-contain">
                   <p className="text-sm font-medium uppercase tracking-widest text-cyan-500">
                     HTML, CSS, MySQL & PHP
@@ -308,7 +311,7 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-cyan
                   </div>
                 </div>
               </a>
-            </div>
+            </div>*/}
           </div>
         </div>
       </section>
