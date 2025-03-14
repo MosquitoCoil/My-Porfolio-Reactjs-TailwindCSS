@@ -1,17 +1,17 @@
 import Carousel from "./carousel";
-import "../assets/try.css";
+import "../../src/try.css";
 
 {
-  /* import demoVideo from './assets/video.mp4'*/
+  /* import demoVideo from '/video.mp4'*/
 }
 
 const slides = [
-  "/src/assets/carousel/sbi1.png",
-  "/src/assets/carousel/sbi2.png",
-  "/src/assets/carousel/sbi3.jpg",
-  "/src/assets/carousel/sbi4.jpg",
-  "/src/assets/carousel/sbi5.jpg",
-  "/src/assets/carousel/sbiwall.png",
+  "/carousel/sbi1.png",
+  "/carousel/sbi2.png",
+  "/carousel/sbi3.jpg",
+  "/carousel/sbi4.jpg",
+  "/carousel/sbi5.jpg",
+  "/carousel/sbiwall.png",
 ];
 
 function Main() {
@@ -25,7 +25,7 @@ function Main() {
                 <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
                   <div className="absolute backface-hidden w-full h-full object-cover">
                     <img
-                      src="/src/assets/QCU_07695.jpg"
+                      src="/QCU_07695.jpg"
                       class="w-full h-full"
                       className="absolute inset-0 h-full w-full "
                     />
@@ -33,7 +33,7 @@ function Main() {
                   <div className="absolute my-rotate-y-180 backface-hidden w-full h-full overflow-hidden">
                     <div className="absolute backface-hidden w-full h-full">
                       <img
-                        src="/src/assets/roco.png"
+                        src="/roco.png"
                         class="w-full h-full"
                         className="absolute inset-0 h-full w-full object-cover"
                       />
@@ -50,7 +50,7 @@ function Main() {
                 className="relative w-[max-content] before:absolute before:inset-0 before:animate-typewriter before:bg-gray-950 
 after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-cyan-400 text-white text-2xl font-bold sm:text-2xl"
               >
-                Web developer ...
+                Web developer  ...
               </h3>
               <p className="mt-4 text-white">
                 Hi, I’m Jaymar Roco, and I recently graduated with a degree in
@@ -85,7 +85,7 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-cyan
               >
                 <img
                   alt=""
-                  src="/src/assets/Screenshot/Axie.png"
+                  src="/Screenshot/Axie.png"
                   className="absolute inset-0 h-full w-full object-contain transition-opacity group-hover:opacity-50"
                 />
                 {/* logo <img className="size-10" src='/src/assets/play.png'/>    */}
@@ -122,7 +122,7 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-cyan
               >
                 <img
                   alt=""
-                  src="/src/assets/Screenshot/Student Registration QCU.png"
+                  src="/Screenshot/Student Registration QCU.png"
                   className="absolute inset-0 h-full w-full object-contain transition-opacity group-hover:opacity-50"
                 />
                 {/* <img className="size-10" src='/src/assets/play.png'/>    */}
@@ -160,17 +160,17 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-cyan
                 <div className="absolute inset-0 grid md:grid-cols-3 gap-4">
                   <img
                     alt=""
-                    src="/src/assets/screen1.png"
+                    src="/screen1.png"
                     className="h-full w-full object-contain transition-opacity group-hover:opacity-50"
                   />
                   <img
                     alt=""
-                    src="/src/assets/screen2.png"
+                    src="/screen2.png"
                     className="h-full w-full object-contain transition-opacity group-hover:opacity-50"
                   />
                   <img
                     alt=""
-                    src="/src/assets/screen3.png"
+                    src="/screen3.png"
                     className="h-full w-full object-contain transition-opacity group-hover:opacity-50"
                   />
                 </div>
@@ -249,7 +249,7 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-cyan
               >
                 <img
                   alt=""
-                  src="/src/assets/Screenshot/My portfolio.png"
+                  src="/Screenshot/My portfolio.png"
                   className="absolute inset-0 h-full w-full object-contain transition-opacity group-hover:opacity-50"
                 />
                 {/* logo <img className="size-10" src='/src/assets/play.png'/>    */}
@@ -285,13 +285,13 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-cyan
               >
                 <img
                   alt=""
-                  src="/src/assets/Screenshot/figma.png"
+                  src="/Screenshot/figma.png"
                   className="absolute inset-0 h-full w-full object-contain transition-opacity group-hover:opacity-50"
                 />
                 {/* logo <img className="size-10" src='/src/assets/play.png'/>    */}
                 <div className="relative p-4 sm:p-6 lg:p-8">
                   <p className="text-sm font-medium uppercase tracking-widest text-cyan-500">
-                    HTML, Boostrap, PHP & MySQL
+                    Figma
                   </p>
                   <p className="absolute text-xl font-bold text-white sm:text-2xl">
                     Maternal Health System
@@ -310,42 +310,6 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-cyan
                 </div>
               </a>
             </div>
-            {/*<div
-              className="hover:bg-gray-500/5 block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-cyan-400/10 hover:shadow-cyan-400/10"
-              href="#"
-            >
-              <a
-                href="https://drive.google.com/drive/folders/1-iyej4MCY6txsvmFXhF1rsXzO3p5NN5-?usp=sharing"
-                className="group relative block"
-              >
-                <img
-                  alt=""
-                  src="/src/assets/Screenshot/CMS.png"
-                  className="absolute inset-0 h-full w-full object-contain transition-opacity group-hover:opacity-50"
-                />
-                 <img className="size-10" src='/src/assets/play.png'/>    
-                <div className="relative p-4 sm:p-6 lg:p-8 object-contain">
-                  <p className="text-sm font-medium uppercase tracking-widest text-cyan-500">
-                    HTML, CSS, MySQL & PHP
-                  </p>
-                  <p className="text-xl font-bold text-white sm:text-2xl">
-                    Barangay Complaint Management System
-                  </p>
-                  <div className="mt-32 sm:mt-48 lg:mt-64">
-                    <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
-                      <p className="text-sm text-white">
-                        This Complaint Management System, originally based on an
-                        internet template, has been customized and refactored
-                        using HTML, CSS, PHP, and MySQL to fit our project’s
-                        specific needs. It offers an accessible platform for
-                        submitting and tracking complaints, improving
-                        organization and response time.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>*/}
           </div>
         </div>
       </section>

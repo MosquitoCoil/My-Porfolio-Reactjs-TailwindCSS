@@ -8,7 +8,7 @@ function Footer() {
               <div className="flex justify-center text-teal-600 sm:justify-start">
                 <img
                   className="mr-6 h-12 sm:h-12"
-                  src="/src/assets/logoJ.png"
+                  src="/logoJ.png"
                   alt="mylogo"
                 />
                 <span className="self-center text-xl whitespace-nowrap text-white">
@@ -408,7 +408,7 @@ function Footer() {
               </p>
 
               <p className="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">
-                &copy; 2024 Jaymar Roco
+                &copy; 2025 Jaymar Roco
               </p>
             </div>
           </div>
