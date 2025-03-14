@@ -50,7 +50,7 @@ function Main() {
                 className="relative w-[max-content] before:absolute before:inset-0 before:animate-typewriter before:bg-gray-950 
 after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-cyan-400 text-white text-2xl font-bold sm:text-2xl"
               >
-                UI and UX Designer    
+                Web developer ...
               </h3>
               <p className="mt-4 text-white">
                 Hi, I’m Jaymar Roco, and I recently graduated with a degree in
@@ -275,13 +275,47 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-cyan
                 </div>
               </a>
             </div>
-
+            <div
+              className="hover:bg-gray-500/5 block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-cyan-400/10 hover:shadow-cyan-400/10"
+              href="#"
+            >
+              <a
+                href="https://www.figma.com/community/file/1432685041631817472/maternal-system"
+                className="group relative block"
+              >
+                <img
+                  alt=""
+                  src="/src/assets/Screenshot/figma.png"
+                  className="absolute inset-0 h-full w-full object-contain transition-opacity group-hover:opacity-50"
+                />
+                {/* logo <img className="size-10" src='/src/assets/play.png'/>    */}
+                <div className="relative p-4 sm:p-6 lg:p-8">
+                  <p className="text-sm font-medium uppercase tracking-widest text-cyan-500">
+                    HTML, Boostrap, PHP & MySQL
+                  </p>
+                  <p className="absolute text-xl font-bold text-white sm:text-2xl">
+                    Maternal Health System
+                  </p>
+                  <div className="mt-32 sm:mt-48 lg:mt-64">
+                    <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
+                      <p className="text-sm text-white">
+                        A user-friendly system that streamlines maternal
+                        healthcare, improving communication, appointment
+                        tracking, and access to essential resources. I focused
+                        on UI/UX design, ensuring an intuitive and seamless
+                        experience for both mothers and healthcare providers.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
             {/*<div
               className="hover:bg-gray-500/5 block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-cyan-400/10 hover:shadow-cyan-400/10"
               href="#"
             >
               <a
-                href="#"
+                href="https://drive.google.com/drive/folders/1-iyej4MCY6txsvmFXhF1rsXzO3p5NN5-?usp=sharing"
                 className="group relative block"
               >
                 <img
