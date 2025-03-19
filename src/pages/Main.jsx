@@ -244,7 +244,7 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-cyan
               href="#"
             >
               <a
-                href="https://www.youtube.com/watch?v=3NTtNt5WtO4"
+                href="https://jaymarportfolio.netlify.app/"
                 className="group relative block"
               >
                 <img
