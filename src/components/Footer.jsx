@@ -214,7 +214,7 @@ function Footer() {
                       className="dark:text-gray-400 transition dark:hover:text-white"
                       href="https://www.canva.com/design/DAFr8zW01NA/LMNEnDiH-djvQ32Ebaqy5w/edit?utm_content=DAFr8zW01NA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
                     >
-                      Curriculum Vitae
+                      Resume
                     </a>
                   </li>
 
