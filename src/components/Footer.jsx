@@ -319,7 +319,7 @@ function Footer() {
                       </svg>
 
                       <span className="flex-1 dark:text-gray-400 transition dark:hover:text-white">
-                        jaymar.roco@gmail.com
+                        jaymarroco.j@gmail.com
                       </span>
                     </a>
                   </li>

@@ -10,8 +10,8 @@ const slides = [
   "/carousel/sbi2.png",
   "/carousel/sbi3.jpg",
   "/carousel/sbi4.jpg",
-  "/carousel/sbi5.jpg",
-  "/carousel/sbiwall.png",
+  "/carousel/sbi5.png",
+  "/carousel/sbi6.png",
 ];
 
 function Main() {
@@ -50,12 +50,14 @@ function Main() {
                 className="relative w-[max-content] before:absolute before:inset-0 before:animate-typewriter before:bg-gray-950 
 after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-cyan-400 text-white text-2xl font-bold sm:text-2xl"
               >
-                Web developer  ...
+                I'm a Web developer  ..
               </h3>
               <p className="mt-4 text-white">
-                Hi, I’m Jaymar Roco, and I recently graduated with a degree in
-                Information Technology from Quezon City University. I’m eager to
-                put my IT skills to use in new and exciting ways.
+                "Hi, I’m Jaymar Roco, a web developer with a strong foundation
+                in Information Technology. I’m passionate about using my skills
+                to build practical, user-friendly solutions and excited to take
+                on new challenges that help me grow and contribute to meaningful
+                projects."
               </p>
               {/* button <a href="#" className="mt-8 inline-block rounded bg-gray-700 px-12 py-3 text-sm font-medium text-white transition hover:bg-slate-800 ">
           View my Portfolio
@@ -74,11 +76,8 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-cyan
               Explore, connect, and experience the world of tech through my work
             </p>
           </div>
-          <div className="mt-8 grid grid-cols-3 gap-8 md:grid-cols-3 lg:grid-cols-3">
-            <div
-              className="hover:bg-gray-500/5 block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-cyan-400/10 hover:shadow-cyan-400/10"
-              href="#"
-            >
+          <div className="mt-8 grid gap-8 md:grid-cols-3 lg:grid-cols-3">
+            <div className="hover:bg-gray-500/5 block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-cyan-400/10 hover:shadow-cyan-400/10">
               <a
                 href="https://www.youtube.com/watch?v=yaTyTw99zLs"
                 className="group relative block"
@@ -88,7 +87,7 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-cyan
                   src="/Screenshot/Axie.png"
                   className="absolute inset-0 h-full w-full object-contain transition-opacity group-hover:opacity-50"
                 />
-                {/* logo <img className="size-10" src='/src/assets/play.png'/>    */}
+                {/* logo <img className="size-10" src='public/logoJ.png'/>    */}
                 <div className="relative p-4 sm:p-6 lg:p-8">
                   <p className="text-sm font-medium uppercase tracking-widest text-cyan-500">
                     Visual Basic
@@ -112,10 +111,7 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-cyan
               </a>
             </div>
 
-            <div
-              className="hover:bg-gray-500/5 block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-cyan-400/10 hover:shadow-cyan-400/10"
-              href="#"
-            >
+            <div className="hover:bg-gray-500/5 block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-cyan-400/10 hover:shadow-cyan-400/10">
               <a
                 href="https://www.youtube.com/watch?v=bHx47ufdZlQ"
                 className="group relative block"
@@ -125,7 +121,7 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-cyan
                   src="/Screenshot/Student Registration QCU.png"
                   className="absolute inset-0 h-full w-full object-contain transition-opacity group-hover:opacity-50"
                 />
-                {/* <img className="size-10" src='/src/assets/play.png'/>    */}
+                {/* logo <img className="size-10" src='public/logoJ.png'/>    */}
                 <div className="relative p-4 sm:p-6 lg:p-8 object-contain">
                   <p className="text-sm font-medium uppercase tracking-widest text-cyan-500">
                     HTML, CSS, MySQL & PHP
@@ -151,7 +147,6 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-cyan
             <div
               className="hover:bg-gray-500/5 block rounded-xl border border-gray-800 p-8 shadow-xl transition 
         hover:border-cyan-400/10 hover:shadow-cyan-400/10"
-              href="#"
             >
               <a
                 href="https://www.youtube.com/watch?v=Wgo8yktOc1w"
@@ -174,7 +169,7 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-cyan
                     className="h-full w-full object-contain transition-opacity group-hover:opacity-50"
                   />
                 </div>
-                {/* logo <img className="size-10" src='/src/assets/play.png'/>    */}
+                {/* logo <img className="size-10" src='public/logoJ.png'/>    */}
                 <div className="relative p-4 sm:p-6 lg:p-8">
                   <p className="text-sm font-medium uppercase tracking-widest text-cyan-500">
                     React Native
@@ -196,28 +191,57 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-cyan
                 </div>
               </a>
             </div>
+            <div className="hover:bg-gray-500/5 block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-cyan-400/10 hover:shadow-cyan-400/10">
+              <a
+                href="https://jaymarportfolio.netlify.app/"
+                className="group relative block"
+              >
+                <img
+                  alt=""
+                  src="/Screenshot/My portfolio.png"
+                  className="absolute inset-0 h-full w-full object-contain transition-opacity group-hover:opacity-50"
+                />
+                {/* logo <img className="size-10" src='public/logoJ.png'/>    */}
+                <div className="relative p-4 sm:p-6 lg:p-8">
+                  <p className="text-sm font-medium uppercase tracking-widest text-cyan-500">
+                    Reactjs & TailwindCSS
+                  </p>
+                  <p className="text-xl font-bold text-white sm:text-2xl">
+                    My Portfolio
+                  </p>
+                  <div className="mt-32 sm:mt-48 lg:mt-64">
+                    <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
+                      <p className="text-sm text-white">
+                        I built my portfolio website using ReactJS (JSX syntax)
+                        and Tailwind CSS to showcase my projects and skills in a
+                        clean, responsive design. This project highlights my
+                        proficiency in front-end development and my ability to
+                        create user-friendly interfaces with modern web
+                        technologies.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
             <div
               className="hover:bg-gray-500/5 block rounded-xl border border-gray-800 p-8 shadow-xl transition 
         hover:border-cyan-400/10 hover:shadow-cyan-400/10"
-              href="#"
             >
               <a
                 href="https://drive.google.com/drive/folders/1OzrYhKDmK6XgZI6CWwFyv7I_L_JkIqCT?usp=sharing"
                 className="group relative block"
               >
-                <div className="absolute inset-0 h-full w-full object-cover transition-opacity group-hover:opacity-50">
-                  <main className="carousel">
-                    <div className="max-w-lg object-contain">
-                      <Carousel autoSlide={true} autoSlideInterval={1000}>
-                        {slides.map((s) => (
-                          <img src={s} />
-                        ))}
-                      </Carousel>
-                    </div>
-                  </main>
-                </div>
-                {/* logo <img className="size-10" src='/src/assets/play.png'/>    */}
-                <div className="relative p-4 sm:p-6 lg:p-8">
+                <Carousel autoSlide={true} autoSlideInterval={3000}>
+                  {slides.map((s) => (
+                    <img
+                      className="h-full w-full object-contain transition-opacity group-hover:opacity-50"
+                      src={s}
+                    />
+                  ))}
+                </Carousel>
+                {/* logo <img className="size-10" src='public/logoJ.png'/>    */}
+                <div className="relative p-4 sm:p-6 lg:p-8 object-contain">
                   <p className="text-sm font-medium uppercase tracking-widest text-cyan-500">
                     Adobe Photoshop
                   </p>
@@ -239,46 +263,7 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-cyan
                 </div>
               </a>
             </div>
-            <div
-              className="hover:bg-gray-500/5 block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-cyan-400/10 hover:shadow-cyan-400/10"
-              href="#"
-            >
-              <a
-                href="https://jaymarportfolio.netlify.app/"
-                className="group relative block"
-              >
-                <img
-                  alt=""
-                  src="/Screenshot/My portfolio.png"
-                  className="absolute inset-0 h-full w-full object-contain transition-opacity group-hover:opacity-50"
-                />
-                {/* logo <img className="size-10" src='/src/assets/play.png'/>    */}
-                <div className="relative p-4 sm:p-6 lg:p-8">
-                  <p className="text-sm font-medium uppercase tracking-widest text-cyan-500">
-                    Reactjs & TailwindCSS
-                  </p>
-                  <p className="text-xl font-bold text-white sm:text-2xl">
-                    My Portfolio
-                  </p>
-                  <div className="mt-32 sm:mt-48 lg:mt-64">
-                    <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
-                      <p className="text-sm text-white">
-                        I built my portfolio website using ReactJS, JSX, and
-                        Tailwind CSS to showcase my projects and skills in a
-                        clean, responsive design. This project highlights my
-                        proficiency in front-end development and my ability to
-                        create user-friendly interfaces with modern web
-                        technologies.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div
-              className="hover:bg-gray-500/5 block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-cyan-400/10 hover:shadow-cyan-400/10"
-              href="#"
-            >
+            <div className="hover:bg-gray-500/5 block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-cyan-400/10 hover:shadow-cyan-400/10">
               <a
                 href="https://www.figma.com/community/file/1432685041631817472/maternal-system"
                 className="group relative block"
@@ -288,7 +273,7 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-cyan
                   src="/Screenshot/figma.png"
                   className="absolute inset-0 h-full w-full object-contain transition-opacity group-hover:opacity-50"
                 />
-                {/* logo <img className="size-10" src='/src/assets/play.png'/>    */}
+                {/* logo <img className="size-10" src='public/logoJ.png'/>    */}
                 <div className="relative p-4 sm:p-6 lg:p-8">
                   <p className="text-sm font-medium uppercase tracking-widest text-cyan-500">
                     Figma
@@ -313,7 +298,6 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-cyan
           </div>
         </div>
       </section>
-      <section></section>
     </>
   );
 }

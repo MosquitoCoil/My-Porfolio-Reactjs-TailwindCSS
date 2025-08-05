@@ -1,17 +1,8 @@
-import Carousel from "./pages/carousel";
-{
-  /*import Header from './components/Header1'*/
-}
 import Header from "./components/Header";
 import Main from "./pages/Main";
 import "./index.css";
 import Footer from "./components/Footer";
-
-const slides = [
-  "/src/assets/logoJ.png",
-  "/src/assets/my logo.png",
-  "/src/assets/QCU_07695.jpg",
-];
+import ProjectCarousel from "./pages/tryCarousel";
 
 function App() {
   return (
@@ -19,6 +10,7 @@ function App() {
       <Header />
       <Main />
       <Footer />
+      <ProjectCarousel />
     </>
   );
 }

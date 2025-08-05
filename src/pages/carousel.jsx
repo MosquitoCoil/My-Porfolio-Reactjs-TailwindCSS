@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
-import { ChevronLeft, ChevronRight } from "react-feather";
+{
+  /*import { ChevronLeft, ChevronRight } from "react-feather";*/
+}
 
 export default function Carousel({
   children: slides,
-  autoSlide = false,
+  autoSlide = true,
   autoSlideInterval = 9000,
 }) {
   const [curr, setCurr] = useState(0);
@@ -19,14 +21,14 @@ export default function Carousel({
     return () => clearInterval(slideInterval);
   }, []);
   return (
-    <div className="overflow-hidden relative object-cover">
-      <div
+    <div className="absolute pt-36 inset-0 h-full w-full object-contain transition-opacity group-hover:opacity-50">
+      {/*<div
         className="flex transition-transform ease-out duration-1000"
         style={{ transform: `translateX(-${curr * 100}%)` }}
       >
         {slides}
       </div>
-      {/*<div className="absolute inset-0 flex items-center justify-between p-4">
+      <div className="absolute inset-0 flex items-center justify-between p-4">
         <button
           onClick={prev}
           className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white"
@@ -37,20 +39,28 @@ export default function Carousel({
           onClick={next}
           className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white"
         >
-        <ChevronRight size={40} />
+          <ChevronRight size={40} />
         </button>
       </div>*/}
 
-      <div className="absolute bottom-4 right-0 left-0">
-        <div className="flex items-center justify-center gap-2">
-          {slides.map((_, i) => (
-            <div
-              className={`
-              transition-all w-3 h-3 rounded-full
-              ${curr === i ? "p-2" : "bg-opacity-50"}
-            `}
-            />
-          ))}
+      <div className="relative w-full max-w-xl mx-auto overflow-hidden">
+        <div className="w-full h-64 flex items-center justify-center">
+          {slides[curr]}
+        </div>
+
+        <div className="absolute bottom-4 right-0 left-0">
+          <div className="flex items-center justify-center gap-2">
+            {slides.map((_, i) => (
+              <div
+                key={i}
+                className={`
+            transition-all w-3 h-3 rounded-full cursor-pointer
+            ${curr === i ? "bg-transparent" : "bg-white bg-opacity-0"}
+          `}
+                onClick={() => setCurr(i)}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </div>
