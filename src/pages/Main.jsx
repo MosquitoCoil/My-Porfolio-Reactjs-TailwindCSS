@@ -229,7 +229,7 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-cyan
         hover:border-cyan-400/10 hover:shadow-cyan-400/10"
             >
               <a
-                href="https://drive.google.com/drive/folders/1OzrYhKDmK6XgZI6CWwFyv7I_L_JkIqCT?usp=sharing"
+                href="https://drive.google.com/file/d/1mJ2skV2OdYXOpnpQHVow3hacwJ5BjAfW/view?usp=sharing"
                 className="group relative block"
               >
                 <Carousel autoSlide={true} autoSlideInterval={3000}>
