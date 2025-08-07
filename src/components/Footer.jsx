@@ -234,30 +234,30 @@ function Footer() {
 
                 <ul className="mt-8 space-y-4 text-sm">
                   <li>
-                    <a
+                    <div
                       className="dark:text-gray-400 transition dark:hover:text-white"
                       href="#"
                     >
                       Web Development
-                    </a>
+                    </div>
                   </li>
 
                   <li>
-                    <a
+                    <div
                       className="dark:text-gray-400 transition dark:hover:text-white"
                       href="#"
                     >
                       Web Design
-                    </a>
+                    </div>
                   </li>
 
                   <li>
-                    <a
+                    <div
                       className="dark:text-gray-400 transition dark:hover:text-white"
                       href="#"
                     >
                       Graphic Design
-                    </a>
+                    </div>
                   </li>
                 </ul>
               </div>
@@ -299,7 +299,7 @@ function Footer() {
 
                 <ul className="mt-8 space-y-4 text-sm">
                   <li>
-                    <a
+                    <div
                       className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
                       href="#"
                     >
@@ -321,11 +321,11 @@ function Footer() {
                       <span className="flex-1 dark:text-gray-400 transition dark:hover:text-white">
                         jaymarroco.j@gmail.com
                       </span>
-                    </a>
+                    </div>
                   </li>
 
                   <li>
-                    <a
+                    <div
                       className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
                       href="#"
                     >
@@ -347,13 +347,13 @@ function Footer() {
                       <span className="flex-1 dark:text-gray-400 transition dark:hover:text-white">
                         09097725490
                       </span>
-                    </a>
+                    </div>
                   </li>
 
                   <li>
-                    <a
+                    <div
                       className="flex items-start justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
-                      href="https://www.google.com/maps/place/346+D.+Carmencita,+Quezon+City,+1100+Metro+Manila/@14.7086021,121.0824096,17z/data=!3m1!4b1!4m6!3m5!1s0x3397ba77529c0e0d:0x4d2ec9ccb03c7778!8m2!3d14.7086021!4d121.0849899!16s%2Fg%2F11gk8wmlyr?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D"
+                      href="#"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -378,7 +378,7 @@ function Footer() {
                       <address className="-mt-0.5 flex-1 not-italic dark:text-gray-400 transition dark:hover:text-white">
                         Quezon City 1121, Metro Manila, Philippines
                       </address>
-                    </a>
+                    </div>
                   </li>
                 </ul>
               </div>

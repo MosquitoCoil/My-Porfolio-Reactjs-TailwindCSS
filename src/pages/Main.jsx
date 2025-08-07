@@ -6,12 +6,17 @@ import "../../src/try.css";
 }
 
 const slides = [
-  "/carousel/sbi1.png",
-  "/carousel/sbi2.png",
-  "/carousel/sbi3.jpg",
-  "/carousel/sbi4.jpg",
-  "/carousel/sbi5.png",
-  "/carousel/sbi6.png",
+  "/images/tarp/sbi1.png",
+  "/images/tarp/sbi2.png",
+  "/images/tarp/sbi3.jpg",
+  "/images/tarp/sbi4.jpg",
+  "/images/tarp/sbi5.png",
+  "/images/tarp/sbi6.png",
+];
+const pyfslides = [
+  "/images/pythonflask/pyf1.png",
+  "/images/pythonflask/pyf2.png",
+  "/images/pythonflask/pyf3.png",
 ];
 
 function Main() {
@@ -77,7 +82,96 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-cyan
             </p>
           </div>
           <div className="mt-8 grid gap-8 md:grid-cols-3 lg:grid-cols-3">
+            <div
+              className="hover:bg-gray-500/5 block rounded-xl border border-gray-800 p-8 shadow-xl transition 
+        hover:border-cyan-400/10 hover:shadow-cyan-400/10"
+            >
+              <a
+                href="https://github.com/MosquitoCoil/projectpy"
+                className="group relative block"
+              >
+                <div className="absolute inset-0 grid md:grid-cols-3 gap-4">
+                  <img
+                    alt=""
+                    src="images/pyfmobile/pyfm1.jpg"
+                    className="h-full w-full object-contain transition-opacity group-hover:opacity-50"
+                  />
+                  <img
+                    alt=""
+                    src="images/pyfmobile/pyfm2.jpg"
+                    className="h-full w-full object-contain transition-opacity group-hover:opacity-50"
+                  />
+                  <img
+                    alt=""
+                    src="images/pyfmobile/pyfm3.jpg"
+                    className="h-full w-full object-contain transition-opacity group-hover:opacity-50"
+                  />
+                </div>
+                {/* logo <img className="size-10" src='public/logoJ.png'/>    */}
+                <div className="relative p-4 sm:p-6 lg:p-8">
+                  <p className="text-sm font-medium uppercase tracking-widest text-cyan-500">
+                    React Native, REST API
+                  </p>
+                  <p className="text-xl font-bold text-white sm:text-2xl">
+                    Mobile Version of CRUD Python Flask
+                  </p>
+                  <div className="mt-32 sm:mt-48 lg:mt-64">
+                    <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
+                      <p className="text-sm text-white">
+                        For the mobile side, I built a companion app using React
+                        Native, connected to the same Flask backend via RESTful
+                        APIs. The mobile app allows users to perform CRUD
+                        operations in real-time, ensuring data consistency
+                        across platforms. This version focuses on simplicity and
+                        ease of use, providing a smooth experience even on
+                        limited devices, while showcasing cross-platform
+                        integration skills.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
             <div className="hover:bg-gray-500/5 block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-cyan-400/10 hover:shadow-cyan-400/10">
+              <a
+                href="https://github.com/MosquitoCoil/projectpy"
+                className="group relative block"
+              >
+                <Carousel autoSlide={true} autoSlideInterval={3000}>
+                  {pyfslides.map((s) => (
+                    <img
+                      className="h-full w-full object-contain transition-opacity group-hover:opacity-50"
+                      src={s}
+                    />
+                  ))}
+                </Carousel>
+                {/* logo <img className="size-10" src='public/logoJ.png'/>  */}
+                <div className="relative p-4 sm:p-6 lg:p-8">
+                  <p className="text-sm font-medium uppercase tracking-widest text-cyan-500">
+                    Python Flask, REST API, Bootstrap, CSS & MySQL
+                  </p>
+                  <p className="text-xl font-bold text-white sm:text-2xl">
+                    CRUD Python Flask
+                  </p>
+                  <div className="mt-32 sm:mt-48 lg:mt-64">
+                    <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
+                      <p className="text-sm text-white">
+                        I developed a CRUD system using Python Flask and MySQL
+                        as the backend, focusing on efficient data management
+                        through a web interface. The system features a
+                        user-friendly admin panel that allows for creating,
+                        reading, updating, and deleting records. I used Flask’s
+                        routing and templating to build a responsive and
+                        intuitive interface, making data handling seamless and
+                        secure.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            {/*<div className="hover:bg-gray-500/5 block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-cyan-400/10 hover:shadow-cyan-400/10">
               <a
                 href="https://www.youtube.com/watch?v=yaTyTw99zLs"
                 className="group relative block"
@@ -87,7 +181,7 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-cyan
                   src="/Screenshot/Axie.png"
                   className="absolute inset-0 h-full w-full object-contain transition-opacity group-hover:opacity-50"
                 />
-                {/* logo <img className="size-10" src='public/logoJ.png'/>    */}
+                {/* logo <img className="size-10" src='public/logoJ.png'/>    
                 <div className="relative p-4 sm:p-6 lg:p-8">
                   <p className="text-sm font-medium uppercase tracking-widest text-cyan-500">
                     Visual Basic
@@ -109,11 +203,11 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-cyan
                   </div>
                 </div>
               </a>
-            </div>
+            </div>*/}
 
             <div className="hover:bg-gray-500/5 block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-cyan-400/10 hover:shadow-cyan-400/10">
               <a
-                href="https://www.youtube.com/watch?v=bHx47ufdZlQ"
+                href="https://github.com/MosquitoCoil/StudentRegistration-HTML-CSS-PHP"
                 className="group relative block"
               >
                 <img
@@ -149,7 +243,7 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-cyan
         hover:border-cyan-400/10 hover:shadow-cyan-400/10"
             >
               <a
-                href="https://www.youtube.com/watch?v=Wgo8yktOc1w"
+                href="https://github.com/MosquitoCoil/AXGG-ReactNative"
                 className="group relative block"
               >
                 <div className="absolute inset-0 grid md:grid-cols-3 gap-4">
@@ -229,7 +323,7 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-cyan
         hover:border-cyan-400/10 hover:shadow-cyan-400/10"
             >
               <a
-                href="https://drive.google.com/file/d/1mJ2skV2OdYXOpnpQHVow3hacwJ5BjAfW/view?usp=sharing"
+                href="https://drive.google.com/drive/folders/1OzrYhKDmK6XgZI6CWwFyv7I_L_JkIqCT?usp=sharing"
                 className="group relative block"
               >
                 <Carousel autoSlide={true} autoSlideInterval={3000}>
