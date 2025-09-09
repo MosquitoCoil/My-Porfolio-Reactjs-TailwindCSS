@@ -1,4 +1,5 @@
 # Jaymar Roco Portfolio
+# My-Porfolio-Reactjs-TailwindCSS
 
 A modern, responsive personal portfolio website built with **ReactJS**, **TailwindCSS**, and **Framer Motion**. Showcases my projects, tech stack, and skills in a clean, interactive UI.
 
@@ -34,17 +35,17 @@ A modern, responsive personal portfolio website built with **ReactJS**, **Tailwi
 
 ## 📂 Project Structure
 
-My-Porfolio-Reactjs-TailwindCSS/
+My-Portfolio-Reactjs-TailwindCSS/
 │
 ├─ src/
-│ ├─ components/ # Reusable React components (Header, Footer, ProjectCard, TechStack)
-│ └─ pages/ # Main page components (Main)
+│  ├─ components/  # Reusable React components (Header, Footer, ProjectCard, TechStack)
+│  └─ pages/       # Main page components (Main)
 │
 ├─ public/
-│ └─ images
+│  └─ images/      # Project images and icons
 │
-├─ package.json # Project dependencies
-└─ README.md # Project overview
+├─ package.json     # Project dependencies
+└─ README.md        # Project overview
 
 ---
 
