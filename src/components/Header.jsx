@@ -71,7 +71,7 @@ function Header() {
             <ul className="flex flex-col p-4 gap-2 text-white font-medium">
               <li>
                 <a
-                  href="#about-me"
+                  href="#AboutMe"
                   className="block px-4 py-2 rounded hover:bg-gray-800 transition"
                 >
                   Home
@@ -79,7 +79,7 @@ function Header() {
               </li>
               <li>
                 <a
-                  href="#MyPortfolio"
+                  href="#Projects"
                   className="block px-4 py-2 rounded hover:bg-gray-800 transition"
                 >
                   Projects
