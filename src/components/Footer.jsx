@@ -212,19 +212,38 @@ function Footer() {
                   <li>
                     <a
                       className="dark:text-gray-400 transition dark:hover:text-white"
-                      href="https://www.canva.com/design/DAFr8zW01NA/LMNEnDiH-djvQ32Ebaqy5w/edit?utm_content=DAFr8zW01NA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-                    >
-                      Resume
-                    </a>
-                  </li>
-
-                  <li>
-                    <a
-                      className="dark:text-gray-400 transition dark:hover:text-white"
                       href="https://github.com/MosquitoCoil"
                     >
-                      Projects
+                      Github
                     </a>
+                  </li>
+                  <li>
+                    <p className="dark:text-gray-400 transition dark:hover:text-white">
+                      Resume:
+                    </p>
+                  </li>
+                  <li>
+                    <div
+                      className="flex items-start justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end inline-block px-1 py-2 bg-gray-850 dark:text-gray-400 transition dark:hover:text-white border border-gray-800 shadow-md overflow-hidden hover:border-cyan-400 hover:shadow-cyan-400 rounded-lg transition-all duration-300 "
+                      href="/JAYMAR ROCO - RESUME.pdf"
+                      download
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-5 w-5 shrink-0"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M12 12v8m0 0l-4-4m4 4l4-4M12 4v8"
+                        />
+                      </svg>
+                      <span>Download Resume</span>
+                    </div>
                   </li>
                 </ul>
               </div>
@@ -248,15 +267,6 @@ function Footer() {
                       href="#"
                     >
                       Web Design
-                    </div>
-                  </li>
-
-                  <li>
-                    <div
-                      className="dark:text-gray-400 transition dark:hover:text-white"
-                      href="#"
-                    >
-                      Graphic Design
                     </div>
                   </li>
                 </ul>

@@ -88,7 +88,7 @@ function Main() {
       <TechStack />
       {/* Project Section */}
       <motion.section
-        id="Projects"
+        id="MyPortfolio"
         className="bg-gray-950 text-white font-mono min-h-screen"
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
