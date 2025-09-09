@@ -223,8 +223,8 @@ function Footer() {
                     </p>
                   </li>
                   <li>
-                    <div
-                      className="flex items-start justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end inline-block px-1 py-2 bg-gray-850 dark:text-gray-400 transition dark:hover:text-white border border-gray-800 shadow-md overflow-hidden hover:border-cyan-400 hover:shadow-cyan-400 rounded-lg transition-all duration-300 "
+                    <a
+                      className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end px-3 py-2 bg-gray-850 dark:text-gray-400 border border-gray-800 shadow-md hover:border-cyan-400 hover:shadow-cyan-400 rounded-lg transition-all duration-300"
                       href="/JAYMAR ROCO - RESUME.pdf"
                       download
                     >
@@ -243,7 +243,7 @@ function Footer() {
                         />
                       </svg>
                       <span>Download Resume</span>
-                    </div>
+                    </a>
                   </li>
                 </ul>
               </div>
