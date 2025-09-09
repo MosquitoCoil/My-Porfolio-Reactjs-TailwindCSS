@@ -35,17 +35,19 @@ A modern, responsive personal portfolio website built with **ReactJS**, **Tailwi
 
 ## 📂 Project Structure
 
+```text
 My-Portfolio-Reactjs-TailwindCSS/
 │
 ├─ src/
-│  ├─ components/  # Reusable React components (Header, Footer, ProjectCard, TechStack)
-│  └─ pages/       # Main page components (Main)
+│ ├─ components/ # Reusable React components (Header, Footer, ProjectCard, TechStack)
+│ └─ pages/ # Main page components (Main)
 │
 ├─ public/
-│  └─ images/      # Project images and icons
+│ └─ images/ # Project images and icons
 │
-├─ package.json     # Project dependencies
-└─ README.md        # Project overview
+├─ package.json # Project dependencies
+└─ README.md # Project overview
+```
 
 ---
 
