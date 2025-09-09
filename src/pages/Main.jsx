@@ -24,7 +24,7 @@ function Main() {
     <>
       {/* About Me Section */}
       <motion.section
-        id="about-me"
+        id="AboutMe"
         className="bg-gray-950 font-mono min-h-screen flex items-center"
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}

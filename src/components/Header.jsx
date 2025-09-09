@@ -22,7 +22,7 @@ function Header() {
           {/* Desktop Nav */}
           <nav className="hidden md:flex gap-6 text-white font-medium text-lg">
             <a
-              href="#about-me"
+              href="#AboutMe"
               className="hover:text-cyan-400 transition-colors duration-300"
             >
               Home
