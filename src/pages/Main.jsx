@@ -115,6 +115,17 @@ function Main() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             {/* Project 1 */}
             <ProjectCard
+              href="https://github.com/MosquitoCoil/AXGG-ReactNative"
+              images={[
+                "images/pyfmobile/pyfm1.jpg",
+                "images/pyfmobile/pyfm2.jpg",
+                "images/pyfmobile/pyfm3.jpg",
+              ]}
+              tech="React Native"
+              title="Mobile Application Version of CRUD Python Flask User Management"
+              description="Built a React Native mobile app integrated with the same RESTful APIs, allowing seamless access and record management on mobile devices."
+            />
+            <ProjectCard
               href="https://github.com/MosquitoCoil/projectpy"
               images={
                 <Carousel autoSlide={true} autoSlideInterval={3000}>
@@ -129,8 +140,8 @@ function Main() {
               }
               carousel={true}
               tech="Python Flask, REST API, MySQL"
-              title="CRUD Python Flask"
-              description="I developed a CRUD system using Python Flask and MySQL with an admin panel for managing records. Built with RESTful APIs and responsive UI."
+              title="Web Application CRUD Python Flask User Management"
+              description="Developed a full-stack CRUD system using Python Flask and MySQL, featuring an admin panel, RESTful APIs, and a responsive UI for efficient record management."
             />
 
             {/* Project 2 */}
@@ -138,8 +149,8 @@ function Main() {
               href="https://github.com/MosquitoCoil/AXGG-ReactNative"
               images={["/screen1.png", "/screen2.png", "/screen3.png"]}
               tech="React Native"
-              title="Mobile App UI"
-              description="I developed a mobile app UI in React Native with designs created in Figma. Focused on user-friendly experience and clean design."
+              title="Mobile Application UI only"
+              description="Designed and developed a mobile app UI using React Native, with prototypes created in Figma. Prioritized a clean interface and user-friendly experience."
             />
 
             {/* Project 3 */}
@@ -159,7 +170,7 @@ function Main() {
               carousel={true}
               tech="Adobe Photoshop"
               title="Tarpaulin & Brochure"
-              description="During my internship, I designed tarpaulins and brochures for a truck company using Adobe Photoshop."
+              description="During my internship, I created tarpaulins and brochures for a trucking company using Adobe Photoshop."
             />
 
             {/* Project 4 */}
@@ -168,7 +179,7 @@ function Main() {
               images="/Screenshot/figma.png"
               tech="Figma"
               title="Maternal Health System"
-              description="A user-friendly maternal healthcare system UI, focused on appointment tracking and accessibility, designed in Figma."
+              description="Designed a user-friendly maternal healthcare system UI in Figma, with a focus on appointment tracking and accessibility."
             />
 
             {/* Project 5 */}
@@ -177,7 +188,7 @@ function Main() {
               images="/Screenshot/My portfolio.png"
               tech="ReactJS & TailwindCSS"
               title="My Portfolio"
-              description="I built my portfolio website using ReactJS and TailwindCSS to showcase my projects in a modern, responsive design."
+              description="Developed a personal portfolio website with ReactJS and TailwindCSS, featuring a modern and responsive design to showcase projects."
             />
 
             {/* Project 6 */}
@@ -186,7 +197,7 @@ function Main() {
               images="/Screenshot/Student Registration QCU.png"
               tech="HTML, CSS, PHP, MySQL"
               title="Student Registration QCU"
-              description="A student registration system built with PHP, MySQL, and responsive front-end, focusing on CRUD functionality."
+              description="Developed a student registration system using PHP and MySQL, with a responsive front-end and full CRUD functionality."
             />
           </div>
         </div>
