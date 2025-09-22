@@ -106,33 +106,36 @@ export default function TechStack() {
     <motion.section
       className="bg-gray-950 text-white py-16 font-mono"
       id="TechStack"
-      initial={{ opacity: 0, y: 50 }}
+      initial={{ opacity: 0.95, y: 5 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.3 }}
-      transition={{ duration: 0.8 }}
+      viewport={{ once: false, amount: 0.3 }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
     >
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Heading */}
         <motion.h2
           className="text-3xl sm:text-4xl font-bold text-center mb-12"
-          initial={{ opacity: 0, y: -20 }}
+          initial={{ opacity: 0.9, y: -5 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
         >
           Tech Stack
         </motion.h2>
+
         <p className="text-center text-gray-300 mb-12">
           These are the tools and technologies I work with.
         </p>
 
+        {/* Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {techStack.map((section, idx) => (
             <motion.div
               key={idx}
-              initial={{ opacity: 0, y: 40 }}
+              initial={{ opacity: 0.9, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: idx * 0.15 }}
+              transition={{ duration: 0.8, delay: idx * 0.1, ease: "easeOut" }}
               className="bg-gray-900 p-6 rounded-xl border border-gray-800 shadow-md hover:border-cyan-400 hover:shadow-cyan-400 transition-all duration-300"
             >
               <h3 className="text-xl font-semibold mb-4">{section.category}</h3>
@@ -141,7 +144,7 @@ export default function TechStack() {
                   <motion.div
                     key={i}
                     className="flex flex-col items-center w-20"
-                    whileHover={{ scale: 1.2 }}
+                    whileHover={{ scale: 1.1 }}
                   >
                     {tech.icon}
                     <span className="text-sm mt-2 text-center">

@@ -26,10 +26,10 @@ function Main() {
       <motion.section
         id="AboutMe"
         className="bg-gray-950 font-mono min-h-screen flex items-center"
-        initial={{ opacity: 0, y: 20 }}
+        initial={{ opacity: 0.95, y: 3 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: false, amount: 0.3 }}
-        transition={{ duration: 0.8 }}
+        transition={{ duration: 0.4, ease: "easeOut" }}
       >
         <div className="font-poppins mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-16 lg:py-32">
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-16 items-center">
@@ -58,10 +58,10 @@ function Main() {
             {/* Text Section */}
             <motion.div
               className="text-center lg:text-left"
-              initial={{ opacity: 0, x: -20 }}
+              initial={{ opacity: 0.95, x: -3 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: false, amount: 0.3 }}
-              transition={{ duration: 0.8 }}
+              transition={{ duration: 0.4, ease: "easeOut" }}
             >
               <h2 className="text-3xl font-bold sm:text-4xl mb-2 text-white">
                 Jaymar Roco
@@ -84,25 +84,27 @@ function Main() {
           </div>
         </div>
       </motion.section>
+
       {/* Tech Stack Section */}
       <TechStack />
+
       {/* Project Section */}
       <motion.section
         id="Projects"
         className="bg-gray-950 text-white font-mono min-h-screen"
-        initial={{ opacity: 0, y: 20 }}
+        initial={{ opacity: 0.95, y: 3 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: false, amount: 0.2 }}
-        transition={{ duration: 0.8 }}
+        viewport={{ once: false, amount: 0.3 }}
+        transition={{ duration: 0.4, ease: "easeOut" }}
       >
         <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-24">
           {/* Heading */}
           <motion.div
             className="mx-auto max-w-2xl text-center mb-12"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0.95, x: -3 }}
+            whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: false, amount: 0.3 }}
-            transition={{ duration: 0.8 }}
+            transition={{ duration: 0.4, ease: "easeOut" }}
           >
             <h2 className="text-3xl font-bold sm:text-4xl">My Projects</h2>
             <p className="mt-4 text-gray-300 text-sm sm:text-base">
@@ -117,14 +119,16 @@ function Main() {
             <ProjectCard
               href="https://github.com/MosquitoCoil/AXGG-ReactNative"
               images={[
-                "images/pyfmobile/pyfm1.jpg",
-                "images/pyfmobile/pyfm2.jpg",
-                "images/pyfmobile/pyfm3.jpg",
+                "/images/pyfmobile/pyfm1.jpg",
+                "/images/pyfmobile/pyfm2.jpg",
+                "/images/pyfmobile/pyfm3.jpg",
               ]}
               tech="React Native"
               title="Mobile Application Version of CRUD Python Flask User Management"
               description="Built a React Native mobile app integrated with the same RESTful APIs, allowing seamless access and record management on mobile devices."
             />
+
+            {/* Project 2 */}
             <ProjectCard
               href="https://github.com/MosquitoCoil/projectpy"
               images={
@@ -144,7 +148,7 @@ function Main() {
               description="Developed a full-stack CRUD system using Python Flask and MySQL, featuring an admin panel, RESTful APIs, and a responsive UI for efficient record management."
             />
 
-            {/* Project 2 */}
+            {/* Project 3 */}
             <ProjectCard
               href="https://github.com/MosquitoCoil/AXGG-ReactNative"
               images={["/screen1.png", "/screen2.png", "/screen3.png"]}
@@ -153,7 +157,7 @@ function Main() {
               description="Designed and developed a mobile app UI using React Native, with prototypes created in Figma. Prioritized a clean interface and user-friendly experience."
             />
 
-            {/* Project 3 */}
+            {/* Project 4 */}
             <ProjectCard
               href="https://drive.google.com/drive/folders/1OzrYhKDmK6XgZI6CWwFyv7I_L_JkIqCT?usp=sharing"
               images={
@@ -173,7 +177,7 @@ function Main() {
               description="During my internship, I created tarpaulins and brochures for a trucking company using Adobe Photoshop."
             />
 
-            {/* Project 4 */}
+            {/* Project 5 */}
             <ProjectCard
               href="https://www.figma.com/community/file/1432685041631817472/maternal-system"
               images="/Screenshot/figma.png"
@@ -182,7 +186,7 @@ function Main() {
               description="Designed a user-friendly maternal healthcare system UI in Figma, with a focus on appointment tracking and accessibility."
             />
 
-            {/* Project 5 */}
+            {/* Project 6 */}
             <ProjectCard
               href="https://jaymarportfolio.netlify.app/"
               images="/Screenshot/My portfolio.png"
@@ -191,7 +195,7 @@ function Main() {
               description="Developed a personal portfolio website with ReactJS and TailwindCSS, featuring a modern and responsive design to showcase projects."
             />
 
-            {/* Project 6 */}
+            {/* Project 7 */}
             <ProjectCard
               href="https://github.com/MosquitoCoil/StudentRegistration-HTML-CSS-PHP"
               images="/Screenshot/Student Registration QCU.png"
