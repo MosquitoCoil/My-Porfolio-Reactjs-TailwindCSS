@@ -4,6 +4,18 @@ import ProjectCard from "../components/ProjectCard";
 import TechStack from "../components/TechStack";
 import "../../src/try.css";
 
+const ecommslides = [
+  "/images/ecom/home page.png",
+  "/images/ecom/login form modal.PNG",
+  "/images/ecom/registration form modal.PNG",
+  "/images/ecom/admin dashboard.png",
+  "/images/ecom/admin product.png",
+  "/images/ecom/admin order.png",
+  "/images/ecom/admin user.png",
+  "/images/ecom/admin report.png",
+  "/images/ecom/client cart.png",
+];
+
 const slides = [
   "/images/tarp/sbi1.png",
   "/images/tarp/sbi2.png",
@@ -115,7 +127,27 @@ function Main() {
 
           {/* Projects Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-            {/* Project 1 */}
+            {/* Project e-commerce-website */}
+            <ProjectCard
+              href="https://github.com/MosquitoCoil/projectpy"
+              images={
+                <Carousel autoSlide={true} autoSlideInterval={3000}>
+                  {ecommslides.map((s, i) => (
+                    <img
+                      key={i}
+                      src={s}
+                      className="h-48 sm:h-64 w-full object-contain rounded-md"
+                    />
+                  ))}
+                </Carousel>
+              }
+              carousel={true}
+              tech="Python Flask, REST API, MySQL"
+              title="Web Application CRUD Python Flask User Management"
+              description="Developed a full-stack CRUD system using Python Flask and MySQL, featuring an admin panel, RESTful APIs, and a responsive UI for efficient record management."
+            />
+
+            {/* Project Mobile CRUD */}
             <ProjectCard
               href="https://github.com/MosquitoCoil/AXGG-ReactNative"
               images={[
