@@ -356,7 +356,7 @@ function Footer() {
                     />
                   </svg>
                   <span className="text-gray-400">
-                    Dasmariñas City, Cavite, Philippines
+                    Quezon City, Manila, Philippines
                   </span>
                 </li>
               </ul>

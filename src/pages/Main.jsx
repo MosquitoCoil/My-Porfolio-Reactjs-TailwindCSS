@@ -6,6 +6,10 @@ import "../../src/try.css";
 
 const ecommslides = [
   "/images/ecom/home page.png",
+  "/images/ecom/t shirt collection.PNG",
+  "/images/ecom/view product details.png",
+  "/images/ecom/about us.png",
+  "/images/ecom/home footer.PNG",
   "/images/ecom/login form modal.PNG",
   "/images/ecom/registration form modal.PNG",
   "/images/ecom/admin dashboard.png",
@@ -127,9 +131,9 @@ function Main() {
 
           {/* Projects Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-            {/* Project e-commerce-website */}
+            {/* Full-Stack E-Commerce Website */}
             <ProjectCard
-              href="https://github.com/MosquitoCoil/projectpy"
+              href="https://github.com/MosquitoCoil/e-commerce-website.git"
               images={
                 <Carousel autoSlide={true} autoSlideInterval={3000}>
                   {ecommslides.map((s, i) => (
@@ -142,12 +146,12 @@ function Main() {
                 </Carousel>
               }
               carousel={true}
-              tech="Python Flask, REST API, MySQL"
-              title="Web Application CRUD Python Flask User Management"
-              description="Developed a full-stack CRUD system using Python Flask and MySQL, featuring an admin panel, RESTful APIs, and a responsive UI for efficient record management."
+              tech="Flask, MySQL, Bootstrap"
+              title="Full-Stack E-Commerce Website"
+              description="Developed a responsive e-commerce platform with Flask and MySQL, featuring user authentication, product listings, cart & checkout system, and an admin dashboard for managing inventory, orders, and users."
             />
 
-            {/* Project Mobile CRUD */}
+            {/* Mobile Application Version of CRUD Python Flask User Management */}
             <ProjectCard
               href="https://github.com/MosquitoCoil/AXGG-ReactNative"
               images={[
@@ -160,7 +164,7 @@ function Main() {
               description="Built a React Native mobile app integrated with the same RESTful APIs, allowing seamless access and record management on mobile devices."
             />
 
-            {/* Project 2 */}
+            {/* Web Application CRUD Python Flask User Management */}
             <ProjectCard
               href="https://github.com/MosquitoCoil/projectpy"
               images={
@@ -180,7 +184,16 @@ function Main() {
               description="Developed a full-stack CRUD system using Python Flask and MySQL, featuring an admin panel, RESTful APIs, and a responsive UI for efficient record management."
             />
 
-            {/* Project 3 */}
+            {/* My Portfolio */}
+            <ProjectCard
+              href="https://jaymarportfolio.netlify.app/"
+              images="/Screenshot/My portfolio.png"
+              tech="ReactJS & TailwindCSS"
+              title="My Portfolio"
+              description="Developed a personal portfolio website with ReactJS and TailwindCSS, featuring a modern and responsive design to showcase projects."
+            />
+
+            {/* Mobile Application UI only */}
             <ProjectCard
               href="https://github.com/MosquitoCoil/AXGG-ReactNative"
               images={["/screen1.png", "/screen2.png", "/screen3.png"]}
@@ -189,7 +202,7 @@ function Main() {
               description="Designed and developed a mobile app UI using React Native, with prototypes created in Figma. Prioritized a clean interface and user-friendly experience."
             />
 
-            {/* Project 4 */}
+            {/* Tarpaulin & Brochure */}
             <ProjectCard
               href="https://drive.google.com/drive/folders/1OzrYhKDmK6XgZI6CWwFyv7I_L_JkIqCT?usp=sharing"
               images={
@@ -209,7 +222,7 @@ function Main() {
               description="During my internship, I created tarpaulins and brochures for a trucking company using Adobe Photoshop."
             />
 
-            {/* Project 5 */}
+            {/* Maternal Health System */}
             <ProjectCard
               href="https://www.figma.com/community/file/1432685041631817472/maternal-system"
               images="/Screenshot/figma.png"
@@ -218,16 +231,7 @@ function Main() {
               description="Designed a user-friendly maternal healthcare system UI in Figma, with a focus on appointment tracking and accessibility."
             />
 
-            {/* Project 6 */}
-            <ProjectCard
-              href="https://jaymarportfolio.netlify.app/"
-              images="/Screenshot/My portfolio.png"
-              tech="ReactJS & TailwindCSS"
-              title="My Portfolio"
-              description="Developed a personal portfolio website with ReactJS and TailwindCSS, featuring a modern and responsive design to showcase projects."
-            />
-
-            {/* Project 7 */}
+            {/* Student Registration QCU */}
             <ProjectCard
               href="https://github.com/MosquitoCoil/StudentRegistration-HTML-CSS-PHP"
               images="/Screenshot/Student Registration QCU.png"
