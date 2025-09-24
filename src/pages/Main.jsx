@@ -18,6 +18,7 @@ const ecommslides = [
   "/images/ecom/admin user.png",
   "/images/ecom/admin report.png",
   "/images/ecom/client cart.png",
+  "/images/ecom/client order.png",
 ];
 
 const slides = [
