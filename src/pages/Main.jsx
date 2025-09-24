@@ -203,6 +203,33 @@ function Main() {
               description="Designed and developed a mobile app UI using React Native, with prototypes created in Figma. Prioritized a clean interface and user-friendly experience."
             />
 
+            {/* My Portfolio */}
+            <ProjectCard
+              href="https://github.com/MosquitoCoil/Axie-VisualBasic.git"
+              images="/Screenshot/Axie.png"
+              tech="VB.NET (Windows Forms) & MySQL"
+              title="Axie Pets CRUD System"
+              description="Developed a desktop-based CRUD system using VB.NET Windows Forms and MySQL for managing Axie Pets, providing user-friendly data entry, editing, and reporting features."
+            />
+
+            {/* Student Registration QCU */}
+            <ProjectCard
+              href="https://github.com/MosquitoCoil/StudentRegistration-HTML-CSS-PHP"
+              images="/Screenshot/Student Registration QCU.png"
+              tech="HTML, CSS, PHP, MySQL"
+              title="Student Registration QCU"
+              description="Developed a student registration system using PHP and MySQL, with a responsive front-end and full CRUD functionality."
+            />
+
+            {/* Maternal Health System */}
+            <ProjectCard
+              href="https://www.figma.com/community/file/1432685041631817472/maternal-system"
+              images="/Screenshot/figma.png"
+              tech="Figma"
+              title="Maternal Health System"
+              description="Designed a user-friendly maternal healthcare system UI in Figma, with a focus on appointment tracking and accessibility."
+            />
+
             {/* Tarpaulin & Brochure */}
             <ProjectCard
               href="https://drive.google.com/drive/folders/1OzrYhKDmK6XgZI6CWwFyv7I_L_JkIqCT?usp=sharing"
@@ -221,24 +248,6 @@ function Main() {
               tech="Adobe Photoshop"
               title="Tarpaulin & Brochure"
               description="During my internship, I created tarpaulins and brochures for a trucking company using Adobe Photoshop."
-            />
-
-            {/* Maternal Health System */}
-            <ProjectCard
-              href="https://www.figma.com/community/file/1432685041631817472/maternal-system"
-              images="/Screenshot/figma.png"
-              tech="Figma"
-              title="Maternal Health System"
-              description="Designed a user-friendly maternal healthcare system UI in Figma, with a focus on appointment tracking and accessibility."
-            />
-
-            {/* Student Registration QCU */}
-            <ProjectCard
-              href="https://github.com/MosquitoCoil/StudentRegistration-HTML-CSS-PHP"
-              images="/Screenshot/Student Registration QCU.png"
-              tech="HTML, CSS, PHP, MySQL"
-              title="Student Registration QCU"
-              description="Developed a student registration system using PHP and MySQL, with a responsive front-end and full CRUD functionality."
             />
           </div>
         </div>
