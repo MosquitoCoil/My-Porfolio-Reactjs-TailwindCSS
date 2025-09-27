@@ -8,6 +8,7 @@ import {
   FaFigma,
 } from "react-icons/fa";
 import {
+  SiCodeigniter,
   SiTailwindcss,
   SiBootstrap,
   SiFlask,
@@ -77,6 +78,10 @@ const techStack = [
       {
         name: "phpMyAdmin",
         icon: <FaPython size={40} className="text-yellow-500" />,
+      },
+      {
+        name: "CodeIgniter",
+        icon: <SiCodeigniter size={40} className="#ee4323" />,
       },
     ],
   },
