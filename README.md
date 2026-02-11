@@ -1,4 +1,3 @@
-# Jaymar Roco Portfolio
 # My-Porfolio-Reactjs-TailwindCSS
 
 A modern, responsive personal portfolio website built with **ReactJS**, **TailwindCSS**, and **Framer Motion**. Showcases my projects, tech stack, and skills in a clean, interactive UI.
