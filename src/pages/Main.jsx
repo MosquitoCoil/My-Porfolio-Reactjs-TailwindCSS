@@ -154,7 +154,7 @@ function Main() {
 
             {/* Mobile Application Version of CRUD Python Flask User Management */}
             <ProjectCard
-              href="https://github.com/MosquitoCoil/AXGG-ReactNative"
+              href="https://github.com/MosquitoCoil/mobile"
               images={[
                 "/images/pyfmobile/pyfm1.jpg",
                 "/images/pyfmobile/pyfm2.jpg",
